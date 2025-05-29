@@ -4,7 +4,7 @@ navbar.innerHTML = `
  <nav class="navbar shadow-sm navbar-expand-lg bg-white fixed-top px-3 py-3" style="z-index: 1040;">
         <div class="container-xl d-flex justify-content-between align-items-center">
             <!-- Logo -->
-<a class="navbar-brand d-flex align-items-center" href="./index.html">
+<a data-aos="fade-right" class="navbar-brand d-flex align-items-center" href="./index.html">
   <!-- Small logo for mobile -->
   <img src="/docs/assets/images/logo.png" alt="logo" class="d-block d-md-none" style="height: 30px;">
   
@@ -14,7 +14,7 @@ navbar.innerHTML = `
 
 
             <!-- Desktop Menu -->
-            <div class="d-none d-lg-flex align-items-center gap-4">
+            <div data-aos="fade-left" class="d-none d-lg-flex align-items-center gap-4">
                 <ul class="navbar-nav me-3 text-light gap-4">
                     <li class="nav-item">
                         <a class="nav-link" href="./index.html" onmouseover="this.style.color='#004996'"
@@ -39,12 +39,14 @@ navbar.innerHTML = `
                 </ul>
                 <!-- Contact Button -->
             </div>
-            <a href="/contact-us.html"
-                class="btn d-none d-lg-flex text-white py-2 rounded d-flex align-items-center justify-content-center"
-                style="background-color: #e38e00; width: 170px; height: 55px; text-align: center; transition: background-color 0.3s;"
-                onmouseover="this.style.backgroundColor='#f9a61d';" onmouseout="this.style.backgroundColor='#e38e00';">
-                Contact Us
+            <div data-aos="fade-left">
+            <a  href="/contact-us.html"
+            class="btn d-none d-lg-flex text-white py-2 rounded d-flex align-items-center justify-content-center"
+            style="background-color: #e38e00; width: 170px; height: 55px; text-align: center; transition: background-color 0.3s;"
+            onmouseover="this.style.backgroundColor='#f9a61d';" onmouseout="this.style.backgroundColor='#e38e00';">
+            Contact Us
             </a>
+            </div>
 
 
 
