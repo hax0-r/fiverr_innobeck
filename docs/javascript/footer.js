@@ -29,31 +29,31 @@ footer.innerHTML = `
                     <div class="col-md-4" data-aos="fade-up" >
                         <h2 class="pb-1 clashBold pt-1" style="font-size: clamp(20px, 6vw, 24px);">Explore</h2>
                         <ul class="list-unstyled">
-                            <li class="mb-3"><a href="/docs/index.html"
+                            <li class="mb-3"><a href="#"
                                     class="text-decoration-none text-secondary">Home</a></li>
-                            <li class="mb-3"><a href="/docs/about-us.html"
+                            <li class="mb-3"><a href="#"
                                     class="text-decoration-none text-secondary">Services</a></li>
-                            <li class="mb-3"><a href="/docs/about-us.html"
+                            <li class="mb-3"><a href="#"
                                     class="text-decoration-none text-secondary">About</a></li>
-                            <li class="mb-3"><a href="/docs/contact-us.html"
+                            <li class="mb-3"><a href="/contact-us.html"
                                     class="text-decoration-none text-secondary">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="pb-1 clashBold pt-1" style="font-size: clamp(20px, 6vw, 24px);">Resources</h2>
                         <ul class="list-unstyled">
-                            <li class="mb-3"><a href="/docs/index.html"
+                            <li class="mb-3"><a href="#"
                                     class="text-decoration-none text-secondary">Terms & Conditions</a></li>
-                            <li class="mb-3"><a href="/docs/about-us.html"
+                            <li class="mb-3"><a href="/privacy-policy.html"
                                     class="text-decoration-none text-secondary">Privacy Policy</a></li>
-                            <li class="mb-3"><a href="/docs/about-us.html"
+                            <li class="mb-3"><a href="#"
                                     class="text-decoration-none text-secondary">Imprint</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
                         <h2 class="pb-1 clashBold pt-1" style="font-size: clamp(20px, 6vw, 24px);">Address</h2>
                         <ul class="list-unstyled">
-                            <li class="mb-3"><a href="/docs/index.html"
+                            <li class="mb-3"><a href="#"
                                     class="text-decoration-none text-secondary">Möckernstr. 120, 10963 Berlin</a></li>
                             <h2 class="pb-1 clashBold pt-1" style="font-size: clamp(20px, 6vw, 24px);">Contact</h2>
                             <li class="mb-3"><a href="tel:+4915209350628"
