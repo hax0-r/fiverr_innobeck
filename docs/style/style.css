@@ -118,7 +118,6 @@ p {
 .slider {
   overflow: hidden;
   position: relative;
-  background: #fff;
   height: 80px;
 }
 
@@ -157,15 +156,14 @@ p {
 .slider2 {
   overflow: hidden;
   position: relative;
-  background: #fff;
   height: 80px;
 }
 
 .slide-track2 {
   display: flex;
   width: calc(250px * 14);
-  /* Adjust 250px to actual image width if needed */
-  animation: scroll2 40s linear infinite;
+  /* Adjust if logo widths differ */
+  animation: scroll-left 40s linear infinite;
 }
 
 .slide2 {
@@ -183,12 +181,108 @@ p {
   object-fit: contain;
 }
 
-@keyframes scroll2 {
+@keyframes scroll-left {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.clients {
+  background: url(/docs/assets/images/clientsBg.png) no-repeat center center;
+}
+
+/* client slider */
+
+.clientSlider {
+  overflow: hidden;
+  position: relative;
+}
+
+.client-slide-track {
+  display: flex;
+  width: calc(250px * 14);
+  /* Adjust 250px to actual image width if needed */
+  animation: client 40s linear infinite;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+
+@keyframes client {
   0% {
     transform: translateX(0);
   }
 
   100% {
-    transform: translateX(50%);
+    transform: translateX(-50%);
   }
+}
+
+.clientSlider2 {
+  overflow: hidden;
+  position: relative;
+}
+
+.client-slide-track2 {
+  display: flex;
+  width: calc(250px * 14);
+  /* Adjust 250px to actual image width if needed */
+  animation: client2 40s linear infinite;
+}
+
+.client2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+
+@keyframes client2 {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f59e0b !important;
+  color: #fff !important;
+}
+
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+
+.accordion-button::after {
+  content: "+";
+  font-size: 1.25rem;
+  transform: rotate(0deg);
+}
+
+.accordion-button {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.accordion-body {
+  color: #fff;
+  background-color: #f59e0b;
+  font-size: 0.9rem;
+  padding-top: 0;
 }
